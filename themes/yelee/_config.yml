@@ -28,10 +28,10 @@ favicon: /favicon.png
 ## If your site' url is 'http://yoursite.com/blog', set root_url as '/blog/'
 ## 网站若存放在子目录，请按上面格式填写
 ## https://hexo.io/docs/configuration.html#URL
-root_url: 
+root_url:
 
 # Year of Site Creation | 网站成立年份
-since: 2016
+since: 2017
 
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
@@ -40,10 +40,10 @@ since: 2016
 ## https://github.com/hexojs/hexo-generator-feed
 
 subnav:
-  Email: "mailto:123@123.com"
+  Email: "mailto:jinmifengcompany@163.com"
   #新浪微博: "sina weibo"
   GitHub: "#"
-  #V2EX: "#"
+  V2EX: "#"
   RSS: "/atom.xml"
   #知乎: "zhihu"
   #豆瓣: "douban"
@@ -89,23 +89,23 @@ show_count: false
 ## 是否在主页文章标题旁显示评论数（多说、Disqus）
 ## Add comment count after article title
 
-disqus: 
+disqus:
   #on: true
-  shortname: 
+  shortname:
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
-  # It is unnecessary to enable disqus here if 
-  # you have set "disqus_shortname" in your site's "_config.yml" 
+  # It is unnecessary to enable disqus here if
+  # you have set "disqus_shortname" in your site's "_config.yml"
 
-duoshuo: 
+duoshuo:
   #on: true
-  domain: 
+  domain:
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 youyan:
-  #on: true
-  id: 
+  on: true
+  id: 2136979
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
@@ -122,14 +122,14 @@ background_image: 5
 # Base Font Size | 字号调节
 base_font_size: 16  #px, 16 - 24
 
-## General Color Scheme | 主题配色方案 
+## General Color Scheme | 主题配色方案
 ## 可用值 Value: yilia
-color_scheme: 
+color_scheme: yilia
 
 highlight_style:
   #on: true
   inline_code: 1  # Value: 0 - 9 可选
-  code_block: 1  # Value: 0 - 4 
+  code_block: 1  # Value: 0 - 4
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
@@ -142,7 +142,7 @@ blockquote_style:
 
 # Headings Style | 标题风格
 ## 0-Yelee, 1-Yilia, 2-GitHub
-heading_style: 0 # Value: 0 - 2
+heading_style: 1 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
 list_style: 0  # value: 0 - 12 可选
@@ -166,10 +166,10 @@ animate: true
 
 # Load jQuery UI to style tooltips
 # 工具提示框样式美化
-jquery_ui: false
+jquery_ui: true
 
-# Max width of right cloumn | 限制右侧内容的宽带 
-limit_article_width: 
+# Max width of right cloumn | 限制右侧内容的宽带
+limit_article_width:
   on: false
   max_width: 60 # em
 
@@ -218,7 +218,7 @@ ie_updater:
   ## http://outdatedbrowser.com/
 
 # Tab Title Change | 标签页标题切换
-tab_title_change: 
+tab_title_change:
   on: false
   left_tab_title: '(つェ⊂) 我藏好了哦~ '
   return_tab_title: '(*´∇｀*) 被你发现啦~ '
@@ -229,8 +229,8 @@ tab_title_change:
 # Local Site Search | 本地站内搜索
 ## Insatall below plugin to take effect | 使用搜索需先安装对应插件
 ## https://github.com/PaicHyperionDev/hexo-generator-search
-search: 
-  #on: true
+search:
+  on: true
   onload: false
   ## true: get search.xml file when the page has loaded
   ## false: get the file when search box gets focus
@@ -244,7 +244,7 @@ fancybox: true
 mathjax: false
 
 # Socail Share | 是否开启分享
-share: 
+share:
   on: true
   baidu: true
   addthis: false
@@ -254,15 +254,15 @@ share:
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-baidu_site: 
-google_site: 
+baidu_site:
+google_site:
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
-google_analytics: 
+google_analytics:
 
 # 百度统计 http://sitecenter.baidu.com/sc-web/
 # 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容
-baidu_tongji: 
+baidu_tongji:
 
 # 不蒜子网站计数设置
 # http://ibruce.info/2015/04/04/busuanzi/
